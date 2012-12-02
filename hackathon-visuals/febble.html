@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Facebook Device</title>
+<!-- <link rel="stylesheet" type="text/css" href="inc/layout.css" media="all" /> -->
+<link rel="stylesheet" type="text/css" href="css/main-febble.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/skeleton.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+</head>
+
+<div id="blueBarWrapper">
+	<div id="blueBar">
+		<div id="pageLogo"></div>
+		<div class="fbJewel">
+			<div id="fbRequestsJewel"></div>
+			<div id="fbMessagesJewel"></div>
+			<div id="fbNotificationsJewel"></div>
+		</div>
+
+		<div id="fbSearchBar">
+		</div>
+
+		<div id="profileWrapper">
+			<div class="menuPullDown"></div>			
+			<div id="navHome">Home</div>			
+			<div id="profileItem"><img src="img/vince.jpg">Vincent Chan</div>
+		</div>
+
+	</div>
+</div>
+
+<div class="aboveFoldWrapper">
+	<div class="aboveFold">
+		<div class="aboveFoldContentWrapper">
+		</div>
+	</div>
+</div>
+
+<div class="belowFoldWrapper">
+
+
+<div class="container">
+	<div class="sixteen columns"><h1 class="bold lato">Core facebook functions without even taking out your phone.</h1></div>
+	
+	<div class="five columns lato" id="featureList">
+		<h2>Displays</h2>
+		<li><span>Wall posts</span></li>
+		<li><span>Pokes</span></li>
+		<li><span>Friend requests</span></li>
+	</div>
+	
+	<div class="five columns lato" id="featureList">
+		<h2>Interaction</h2>
+		<li><span>Like wall posts</span></li>
+		<li><span>Dismiss/Return Pokes</span></li>
+		<li><span>Accept/Decline friend requests</span></li>
+	</div>
+
+	<div class="six columns lato">
+		<a href="#myModal" role="button" data-toggle="modal"><div class="febbleLogin">Login to febble</div></a>
+	</div>
+
+	<div class="sixteen columns"><hr><h1 class="bold lato">Facebook SDK for Devices</h1>
+
+		<div class="sixteen columns bottomMargin alpha">
+		<span class="lato gray">Our SDK for devices makes it easier and faster to develop social devices. From one-step microcontroller authentication pairing, to built-in microcontroller-to-social graph libraries, the SDK offers several powerful development tools for hardware developers.
+		</span>
+		</div>
+
+	</div>
+
+	<div class="sixteen columns bottomMargin lato" id="productDisplay"><hr>
+		<div class="four columns alpha"><h1 class="black lato">Other products</h1>
+		<span class="lato gray">Make the next great facebook enabled device.</span>
+		</div>
+		<div class="four columns center hovers"><img src="img/fbunlock.png"><h2>Locksmasher</h2></div>
+		<a href="febble.html"><div class="four columns center hovers"><img src="img/febble.png"><h2>Febble</h2></div></a>
+		<div class="four columns center omega hovers"><img src="img/fbnfc.png"><h2>Facebook NFC</h2></div>				
+	</div>
+
+	<div class="sixteen columns bottom Margin" id="footer"></div>
+
+</div>
+
+</div>
+
+<div id="myModal" class="modal hide fade lato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <h2 id="myModalLabel">Febble Login</h2>
+  </div>
+  <div class="modal-body">
+	<iframe frameBorder="0" src="http://localhost:3000" width="525px" height="300px"></iframe>
+  </div>
+  <div class="modal-footer">
+    <div class="btn lato bold" data-dismiss="modal" aria-hidden="true">Close</div>
+  </div>
+</div>
+
+</html>
