@@ -1,4 +1,0 @@
-fbdevices
-=========
-
-Facebook Devlices
